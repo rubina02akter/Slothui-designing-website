@@ -1,0 +1,239 @@
+/* common css */
+.heading{
+  color: #1E293B;
+}
+.para{
+  color: #475569;
+}
+
+
+/* banner css */
+.gen-z{
+  color: #4F46E5;
+  background-color: #EEF2FF;
+  padding: 8px 6px 8px 6px ;
+  margin-left: 500px;
+  margin-right: 500px;
+  border-radius: 20px;
+  font-weight: 500;
+}
+.text{
+  text-align: center;
+}
+.btn-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.btn-box img{
+ width: 30px;
+ height: 30px;
+}
+.btn-box-apple{
+ background-color: black;
+ width: 132px;
+ height: 44px;
+ border: solid #64748B;
+ color: white;
+ font-size: small;
+ padding-left: 16px;
+ padding-right: 16px;
+ border-radius: 8px;
+}
+.btn-box-store{
+ background-color: black;
+ width: 132px;
+ height: 44px;
+ border: solid #64748B;
+ color: white;
+ font-size: small;
+ padding-left: 16px;
+ padding-right: 16px;
+ border-radius: 8px;
+}
+
+.desktop{
+  position: relative;
+}
+/* .desktop img{
+  width: 800px;
+  height: 533.33px;
+} */
+.mobile{
+  position: absolute;
+  bottom: -240px ; 
+  right:70px
+}
+/* .mobile img{
+  width: 300px;
+  height: 448.24px;
+} */
+
+#grad1 {
+  height: 100%;
+  background-color: #FDFEFF; /* For browsers that do not support gradients */
+  background-image: linear-gradient(0deg, #9FA7FF, #FDFEFF);
+}
+
+/* social side  */
+.bg{
+  background-color: #F8FAFC;
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+}
+.company {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr); 
+  gap: 1rem; 
+  justify-content: center;
+  place-items: center;
+}
+
+/* features  */
+#feature-section{
+  background-color: #F8FAFC;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.gen-z-feature{
+  color: #4F46E5;
+  background-color: #EEF2FF;
+  padding: 8px 6px 8px 6px ;
+  width: 150px;
+  border-radius: 20px;
+  font-weight: 500;
+  text-align: center;
+}
+.features{
+ 
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  width: 90%;
+  height: auto;
+  margin: auto;
+  text-align: start;
+  gap: 6px;
+}
+.card{
+  border: solid #E2E8F0;
+  border-radius: 24px;
+
+  padding: 24px;
+}
+.avator{
+  display: flex;
+  gap: 14px;
+
+  justify-items: start;
+  align-items: center;
+  text-align: start;
+}
+#primary-feature{
+  margin-top: 96px;
+}
+
+/* result calculation */
+.result{
+  display: flex;
+  justify-content: center;
+}
+
+/* procrastinator-position */
+.procrastinator-position{
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  align-items: center;
+}
+
+.rate{
+  display: flex;
+  justify-items: start;
+  align-items: center;
+  text-align: start;
+}
+
+/* our office */
+.our-office div{
+  width: 280px;
+  border: solid #E2E8F0;
+  border-radius: 24px;
+  padding: 24px;
+
+}
+.our-office{
+  display: flex;
+  gap: 10px;
+ 
+}
+
+.download-app{
+  background-color: #EEF2FE;
+  margin-top: 60px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.download-app-display{
+  display: flex;
+  justify-items: center;
+  align-items: center;
+
+}
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+/* responsive start */
+@media  screen and (max-width: 576px){
+  .gen-z{
+    color: #4F46E5;
+    background-color: #EEF2FF;
+    padding: 8px 4px 8px 4px ;
+    margin-left: 70px;
+    margin-right: 70px;
+    border-radius: 20px;
+    font-weight: 500;
+    font-size: x-small;
+  }
+  .desktop img{
+    width: 100%;
+    height: 230px;
+    
+
+  }
+ 
+  .mobile{
+    bottom: 90px ; 
+    right: 60px;
+  
+  }
+  .mobile img{
+    width: 120px;
+    height: 170px;
+
+  
+  }
+  #grad1 {
+padding-bottom: 50px;
+  }
+
+  .features{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    width: 90%;
+    margin: auto;
+    text-align: center;
+  }
+
+ 
+}
