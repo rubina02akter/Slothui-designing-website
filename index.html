@@ -369,6 +369,66 @@
           </div>
         </div>
       </section>
+      <!-- FAQ section -->
+      <section>
+        <div class="faq-container">
+          <div class="faq-header">
+            <small>FAQ</small>
+            <h1>Frequently Asked Questions</h1>
+            <p>Fermentum iaculis eu non diam phasellus vestibulum. Volutpat commodo sed egestas egestas fringilla phasellus. Donec ac odio tempor orci dapibus ultrices.</p>
+          </div>
+      
+          <div class="faq-item">
+            <div class="faq-question" onclick="toggleFaq(this)">
+              <span><img src="images/icons/Vector (7).png" /> Enim sed faucibus turpis in eu mi bibendum neque egestas?</span>
+              <div class="faq-icon">⌄</div>
+            </div>
+            <div class="faq-answer">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </div>
+          </div>
+      
+          <div class="faq-item">
+            <div class="faq-question" onclick="toggleFaq(this)">
+              <span><img src="images/icons/Vector (7).png" /> Amet consectetur adipiscing elit pellentesque habitant morbi tristique?</span>
+              <div class="faq-icon">⌄</div>
+            </div>
+            <div class="faq-answer">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </div>
+          </div>
+      
+          <div class="faq-item open">
+            <div class="faq-question" onclick="toggleFaq(this)">
+              <span><img src="images/icons/Vector (7).png" /> Elit pellentesque habitant morbi tristique senectus?</span>
+              <div class="faq-icon">⌄</div>
+            </div>
+            <div class="faq-answer">
+              Mattis ullamcorper velit sed ullamcorper morbi tincidunt. In metus vulputate eu scelerisque felis imperdiet proin fermentum leo. Diam quis enim lobortis scelerisque fermentum dui faucibus. Urna nunc id cursus metus aliquam eleifend mi. Gravida quis blandit turpis cursus in hac.
+            </div>
+          </div>
+      
+          <div class="faq-item">
+            <div class="faq-question" onclick="toggleFaq(this)">
+              <span><img src="images/icons/Vector (7).png" /> Gravida quis blandit turpis cursus in hac. Mi ipsum faucibus vitae aliquet nec?</span>
+              <div class="faq-icon">⌄</div>
+            </div>
+            <div class="faq-answer">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </div>
+          </div>
+      
+          <div class="faq-item">
+            <div class="faq-question" onclick="toggleFaq(this)">
+              <span><img src="images/icons/Vector (7).png" /> Est pellentesque elit ullamcorper dignissim cras. In pellentesque massa placerat?</span>
+              <div class="faq-icon">⌄</div>
+            </div>
+            <div class="faq-answer">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </div>
+          </div>
+        </div>
+      </section>
       <!-- download app -->
       <section class="download-app download-app-display">
         
@@ -400,6 +460,8 @@
       </section>
     </main>
 
+
+   
     <!-- footer start -->
     <footer class="footer">
      
@@ -458,5 +520,12 @@
         <p>Contact us</p>
       </div>
     </footer>
+
+  <script>
+    function toggleFaq(element) {
+      const item = element.parentElement;
+      item.classList.toggle("open");
+    }
+  </script>
   </body>
 </html>

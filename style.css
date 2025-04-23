@@ -193,6 +193,79 @@
   padding-bottom: 80px;
 }
 
+
+.faq-container {
+  max-width: 800px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+}
+
+.faq-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.faq-header small {
+  color: #a78bfa;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.faq-header h1 {
+  font-size: 32px;
+  margin: 10px 0;
+}
+
+.faq-header p {
+  color: #6b7280;
+  font-size: 16px;
+  line-height: 1.5;
+  max-width: 600px;
+  margin: auto;
+}
+
+.faq-item {
+  border-top: 1px solid #e5e7eb;
+  padding: 20px 0;
+}
+
+.faq-question {
+  font-weight: 600;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.faq-question span {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.faq-answer {
+  color: #6b7280;
+  font-size: 14px;
+  margin-top: 10px;
+  display: none;
+}
+
+.faq-item.open .faq-answer {
+  display: block;
+}
+
+.faq-icon {
+  font-size: 20px;
+  transition: transform 0.3s;
+}
+
+.faq-item.open .faq-icon {
+  transform: rotate(180deg);
+}
+
 /* responsive start */
 @media  screen and (max-width: 576px){
   .gen-z{
@@ -235,5 +308,26 @@ padding-bottom: 50px;
     text-align: center;
   }
 
+  .procrastinator-position{
+   flex-direction: column;
+  }
+
+  .our-office{
+    display: flex;
+    flex-direction: column;
+ 
+   
+  }
+
+  .download-app-display{
+    display: flex;
+   flex-direction: column;
+  
+  }
+  .footer{
+    display: flex;
+    flex-direction: column;
+   
+  }
  
 }
