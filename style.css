@@ -6,9 +6,8 @@ body{
 /************** Navbar *******************/
 .navbar {
   display: flex;
-
   align-items: center;
-  padding: 15px 30px;
+  padding: 15px 15px;
   background-color: #fff;
   margin-bottom: 100px;
   position: relative;
@@ -138,11 +137,14 @@ margin: auto;
  border: solid #64748B;
  color: white;
  font-size: small;
- padding-left: 18px;
- padding-right: 18px;
- padding-top: 10px;
- padding-bottom: 10px;
+border: solid #64748B;
  border-radius: 8px;
+}
+.store-text{
+  font-size: 6px;
+}
+.store-span{
+  font-size: 12px;
 }
 .btn-box-store{
  background-color: black;
@@ -151,8 +153,6 @@ margin: auto;
  border: solid #64748B;
  color: white;
  font-size: small;
- padding-left: 16px;
- padding-right: 16px;
  border-radius: 8px;
 }
 
@@ -165,7 +165,7 @@ margin: auto;
 } */
 .mobile{
   position: absolute;
-  bottom: -400px ; 
+  top: 690px ; 
   right:70px
 }
 /* .mobile img{
@@ -192,6 +192,8 @@ margin: auto;
   gap: 1rem; 
   justify-content: center;
   place-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 /* features  */
@@ -410,21 +412,51 @@ margin: auto;
     display: block;
   }
 
-  .gen-z{
-    color: #4F46E5;
-    background-color: #EEF2FF;
-    padding: 8px 4px 8px 4px ;
-    margin-left: 70px;
-    margin-right: 70px;
-    border-radius: 20px;
-    font-weight: 500;
-    font-size: x-small;
+  /* heading start */
+  .heading{
+    color: #1E293B;
+    font-size: 36px;
+    font-weight: 800;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    padding-bottom: 20px;
+    padding-top: 20px;
   }
+  .para{
+    color: #475569;
+    font-weight: 400;
+    font-size: 16px;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    letter-spacing: 0;
+    padding-bottom: 50px;
+  }
+  .gen-z{
+  width: 60%;
+ 
+  }
+  .text{
+    text-align: center;
+  }
+  .desktop{
+    padding-bottom: 70px;
+  }
+
   .desktop img{
     width: 100%;
-    height: 230px;
-    
+    height: 230px; 
 
+  }
+  .mobile{
+    position: absolute;
+    top: 590px ; 
+    right:45px
+  }
+  .mobile img{
+    width: 150px;
+  
   }
   .company {
  
