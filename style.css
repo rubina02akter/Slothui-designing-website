@@ -321,18 +321,71 @@ border: solid #64748B;
 }
 
 /* procrastinator-position */
+.opinion{
+  padding-top: 80px;
+  width: 80%;
+  margin: auto;
+  padding-bottom: 100px;
+}
 .procrastinator-position{
   display: flex;
   justify-content: space-between;
   justify-items: center;
   align-items: center;
+  gap: 50px;
+}
+.img-passage{
+  padding-bottom: 30px;
 }
 
-.rate{
-  display: flex;
-  justify-items: start;
-  align-items: center;
-  text-align: start;
+.opinion-title{
+  margin-top: 130px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #4F46E5;
+  background-color: #EEF2FF;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: inline;
+  text-align: center;
+  border-radius: 20px;
+
+}
+.opinion-heading{
+  font-size: 36px;
+  font-weight: 800;
+  color: #1E293B;
+}
+.opinion-text{
+  font-size: 20px;
+  font-weight: 400;
+  color: #475569;
+  width: 70%;
+}
+.opinion-img{
+  width: 500px;
+  height: 500px;
+}
+.img-side-heading{
+  font-size: 20px;
+  font-weight: 700;
+  color: #475569;
+}
+.img-side-text{
+  font-size: 16px;
+  font-weight: 400;
+  color: #475569;
+}
+
+/* *********what people say part */
+.testimonial-text{
+  font-size: 18px;
+  font-weight: 400;
+  color: #475569;
+  text-align: center;
+  margin-bottom: 70px;
 }
 
 /* our office */
@@ -579,6 +632,10 @@ padding-bottom: 50px;
 
   .procrastinator-position{
    flex-direction: column;
+  }
+  .opinion-img{
+    width: 400px;
+    height: 400px;
   }
 
   .our-office{
