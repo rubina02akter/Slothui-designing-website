@@ -179,7 +179,7 @@ border: solid #64748B;
   background-image: linear-gradient(0deg, #9FA7FF, #FDFEFF);
 }
 
-/* social side  */
+/* social side  ************/
 .bg{
   background-color: #F8FAFC;
   padding-top: 30px;
@@ -195,8 +195,7 @@ border: solid #64748B;
   padding-top: 40px;
   padding-bottom: 40px;
 }
-
-/* features  */
+/* features  ***************/
 #feature-section{
   background-color: #F8FAFC;
   margin-top: 40px;
@@ -210,18 +209,57 @@ border: solid #64748B;
   padding: 8px 6px 8px 6px ;
   width: 150px;
   border-radius: 20px;
-  font-weight: 500;
+  font-weight: 600;
   text-align: center;
+  font-size: 14px;
+}
+.features-text{
+  font-size: 36px;
+  font-weight: 800;
+  text-align: center;
+  margin: 20px;
+}
+.features-text-p{
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+  color: #475569;
+  margin: auto;
+  width: 62%;
+  padding-bottom: 70px;
 }
 .features{
- 
+
   display: grid;
   grid-template-columns: repeat(3,1fr);
   width: 90%;
   height: auto;
   margin: auto;
   text-align: start;
-  gap: 6px;
+  gap: 50px;
+}
+.card-features{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  text-align: center;
+ 
+}
+.card-features-title{
+  font-size: 20px;
+  font-weight: 700;
+  color: #1E293B;
+  margin: 20px;
+}
+.card-features-p{
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  color: #475569;
+  margin: 0;
+
 }
 .card{
   border: solid #E2E8F0;
@@ -232,7 +270,6 @@ border: solid #64748B;
 .avator{
   display: flex;
   gap: 14px;
-
   justify-items: start;
   align-items: center;
   text-align: start;
@@ -242,9 +279,45 @@ border: solid #64748B;
 }
 
 /* result calculation */
+/* *****Rate AI LLM Scale */
+.rate-icon{
+  color: #4F46E5;
+  background-color: #EEF2FF;
+  border-radius: 100%;
+  display: inline;
+  padding: 12px;
+}
+.rate-title{
+  color: #1E293B;
+ font-size: 36px;
+ font-weight: 800;
+}
+.result-section{
+ margin-top: 100px;
+ background-color: #F8FAFC;
+ padding-top: 80px;
+ padding-bottom: 80px;
+}
 .result{
   display: flex;
+  flex-direction: row;
   justify-content: center;
+}
+.result-num{
+ font-size: 60px;
+ color: #4F46E5;
+ font-weight: 700;
+ margin: 0;
+}
+.num-border{
+  border-right: solid #CBD5E1;
+  padding-right: 70px;
+  padding-left: 70px;
+}
+.num-text{
+  font-size: 18px;
+  font-weight: 700;
+  columns: #475569;
 }
 
 /* procrastinator-position */
@@ -461,8 +534,8 @@ border: solid #64748B;
   .company {
  
     grid-template-columns: repeat(3, 1fr); 
+  }
 
- 
   .mobile {
     bottom: 90px ; 
     right: 60px;
@@ -484,6 +557,24 @@ padding-bottom: 50px;
     width: 90%;
     margin: auto;
     text-align: center;
+  }
+  .features-text-p{
+    
+    width: 90%;
+    padding-bottom: 70px;
+  }
+  .result{
+   flex-direction: column;
+   margin-left: 15px;
+   margin-right: 15px;
+   text-align: center;
+  }
+  .num-border{
+    border-bottom: 1px solid #CBD5E1;
+    border-right: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+   
   }
 
   .procrastinator-position{
@@ -509,7 +600,7 @@ padding-bottom: 50px;
   }
  
 }
-}
+
 
   
 
