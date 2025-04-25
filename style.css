@@ -267,7 +267,7 @@ border: solid #64748B;
   border: solid #E2E8F0;
   border-radius: 24px;
 
-  padding: 24px;
+  /* padding: 24px; */
 }
 .avator{
   display: flex;
@@ -392,14 +392,80 @@ border: solid #64748B;
 }
 
 /* *********what people say part */
+.testimonial-features {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  /* display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  width: 100%; */
+  
+}
 
-.testimonial-text{
+.card {
+
+  /* border-radius: 10px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid #e0e0e0; */
+}
+
+.rating {
+  
+}
+
+.star {
+  font-size: 20px;
+  position: relative;
+  display: inline-block;
+  color: #ddd;
+}
+
+.star.full {
+  color: #F59E0B;
+}
+
+.star.half::before {
+  content: '\2605';
+  position: absolute;
+  width: 50%;
+  overflow: hidden;
+  color: #F59E0B;
+}
+
+.card p {
+  font-size: 14px;
+  color: #444;
+}
+
+.avator {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.avator img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.avator p {
+  font-size: 14px;
+  color: #555;
+}
+
+/* .testimonial-text{
   font-size: 18px;
   font-weight: 400;
   color: #475569;
   text-align: center;
   margin-bottom: 70px;
-}
+} */
 
 /* our office */
 .our-office-section{
