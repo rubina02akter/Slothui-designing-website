@@ -339,6 +339,16 @@ border: solid #64748B;
 .img-passage{
   padding-bottom: 30px;
 }
+.div-border{
+  border-left: 4px solid #4F46E5;
+  padding-left: 5px;
+  border-radius:4px;
+}
+.div-border-1{
+  border-left: 4px solid #E0E7FF;
+  padding-left: 5px;
+  border-radius:4px;
+}
 
 .opinion-title{
   margin-top: 130px;
@@ -422,6 +432,7 @@ border: solid #64748B;
   background-color: #EEF2FE;
   height: 600px;
   overflow: hidden;
+  margin-top: 100px;
 }
 .fixed-text{
   margin-bottom: 300px;
@@ -564,12 +575,22 @@ border: solid #64748B;
   margin: auto;
   padding-top: 80px;
   padding-bottom: 80px;
-  background-color: #F8FAFC;
-}
-.footer-section p{
 
 }
+.footer-section{
+  background-color: #F8FAFC;
+
+}
+.footer-section p{
+  font-weight: 500;
+  font-size: 16px;
+  color: #475569;
+}
+
 .footer-section h4{
+  font-weight: 700;
+font-size: 16px;
+color: #1E293B;
 
 }
 .footer-text{
@@ -600,6 +621,21 @@ border: solid #64748B;
   justify-content: space-between;
   width: 90%;
   margin: auto;
+  border-top: 1px solid #CBD5E1;
+  padding-bottom: 50px;
+  padding-top: 30px;
+}
+.cpy-div{
+  display: flex;
+  
+}
+.cpy-div img{
+  width:30px;
+  height:30px;
+  border: 1px solid #CBD5E1;
+  border-radius: 100%;
+  margin-top: 20px;
+  margin-right: 300px;
 }
 
 
@@ -741,15 +777,17 @@ padding-bottom: 50px;
    flex-direction: column;
   }
   .opinion-img{
-    width: 400px;
+    width: 380px;
     height: 400px;
+    
   }
 
   .our-office{
     display: flex;
     flex-direction: column;
- 
-   
+  }
+  .our-office div{
+    width: 85%;
   }
 
   .download-app-section{
@@ -837,6 +875,17 @@ padding-bottom: 50px;
   }
   .last-logo{
     justify-content: center;
+  }
+  .cpy-div{
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .cpy-div img{
+    width: 24px;
+    margin-top: 0px;
+    margin-right: 0px;
   }
   
  
