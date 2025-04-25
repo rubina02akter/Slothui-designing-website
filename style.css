@@ -202,6 +202,7 @@ border: solid #64748B;
   margin-bottom: 40px;
   padding-top: 60px;
   padding-bottom: 60px;
+  
 }
 .gen-z-feature{
   color: #4F46E5;
@@ -245,6 +246,7 @@ border: solid #64748B;
   justify-items: center;
   justify-content: center;
   text-align: center;
+
  
 }
 .card-features-title{
@@ -317,13 +319,13 @@ border: solid #64748B;
 .num-text{
   font-size: 18px;
   font-weight: 700;
-  columns: #475569;
+  color: #475569;
 }
 
 /* procrastinator-position */
 .opinion{
   padding-top: 80px;
-  width: 80%;
+  width: 90%;
   margin: auto;
   padding-bottom: 100px;
 }
@@ -380,6 +382,7 @@ border: solid #64748B;
 }
 
 /* *********what people say part */
+
 .testimonial-text{
   font-size: 18px;
   font-weight: 400;
@@ -389,6 +392,11 @@ border: solid #64748B;
 }
 
 /* our office */
+.our-office-section{
+  padding-top: 80px;
+  width: 90%;
+  margin: auto;
+}
 .our-office div{
   width: 280px;
   border: solid #E2E8F0;
@@ -396,32 +404,84 @@ border: solid #64748B;
   padding: 24px;
 
 }
+.office-p{
+  font-size: 18px;
+  font-weight: 400;
+  color: #475569;
+
+}
 .our-office{
   display: flex;
-  gap: 10px;
+  gap: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
  
 }
-
-.download-app{
+/* downlaod app section */
+.download-app-section{
   background-color: #EEF2FE;
-  margin-top: 60px;
-  padding-top: 60px;
-  padding-bottom: 60px;
+  height: 600px;
+  overflow: hidden;
+}
+.fixed-text{
+  margin-bottom: 300px;
 }
 .download-app-display{
   display: flex;
   justify-items: center;
   align-items: center;
-
-}
-
-.footer{
-  display: flex;
-  justify-content: space-between;
+  justify-content: center;
   width: 90%;
   margin: auto;
-  padding-top: 80px;
-  padding-bottom: 80px;
+
+}
+/* Buttons */
+.btn-group-download {
+  display: flex;
+  gap: 10px;
+  justify-content: start;
+}
+
+.btn-learn-more {
+  color: #4F46E5;
+  border: 1px solid #4F46E5 ;
+  background-color: transparent;
+}
+
+.btn-get-start {
+  background: #4F46E5;
+  color: white;
+  border-color: transparent;
+}
+.img-container{
+  display: flex;
+
+}
+.img4{
+  position: relative;
+  left: 140px;
+}
+.img1{
+  margin-top: 50px;
+  width: 400px;
+  height: 800px;
+  object-fit: cover;
+
+}
+.img2{
+  width: 300px;
+ margin-bottom: 200px;
+ height: 100px;
+ position: relative;
+ top: -70px;
+ left: 140px;
+
+}
+.img3{
+ width: 100%;
+ height: 570px;
+
+
 }
 
 
@@ -458,7 +518,7 @@ border: solid #64748B;
 }
 
 .faq-item {
-  border-top: 1px solid #e5e7eb;
+  border-bottom: 1px solid #e5e7eb;
   padding: 20px 0;
 }
 
@@ -496,6 +556,53 @@ border: solid #64748B;
 .faq-item.open .faq-icon {
   transform: rotate(180deg);
 }
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: #F8FAFC;
+}
+.footer-section p{
+
+}
+.footer-section h4{
+
+}
+.footer-text{
+  color: #94A3B8;
+  font-weight: 500;
+  font-size: 14px;
+}
+.footer-logo {
+  width: 70px;
+  margin-top: 10px;
+}
+
+.footer-brand {
+  font-size: 20px;
+  font-weight: bold;
+  color: #1E293B;
+
+}
+.last-logo{
+  display: flex;
+  gap: 5px;
+  justify-content: start;
+  align-items: center;
+  justify-items: center;
+}
+.copyright{
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+}
+
+
 
 /* responsive start */
 @media  screen and (max-width: 576px){
@@ -645,16 +752,93 @@ padding-bottom: 50px;
    
   }
 
+  .download-app-section{
+    background-color: #EEF2FE;
+    height: auto;
+    overflow: hidden;
+  }
+  .fixed-text{
+    margin-bottom: 100px;
+  }
   .download-app-display{
     display: flex;
-   flex-direction: column;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    margin: auto;
   
   }
+  /* Buttons */
+  .btn-group-download {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: start;
+  }
+  
+  .btn-learn-more {
+    color: #4F46E5;
+    border: 1px solid #4F46E5 ;
+    background-color: transparent;
+  }
+  
+  .btn-get-start {
+    background: #4F46E5;
+    color: white;
+    border-color: transparent;
+  }
+  .img-container{
+    display: flex;
+  
+  }
+  .img4{
+    position: none;
+    left: 0px;
+  }
+  .img1{
+    margin-top: 50px;
+    width: 250px;
+    height: 400px;
+    margin-left: 20px;
+    object-fit: contain;
+  
+  }
+  .img2{
+    width: 200px;
+   margin-bottom: 200px;
+   height: 100px;
+   position: relative;
+   top: 0px;
+   left: 0px;
+  
+  }
+  .img3{
+   width: 150px;
+   height: 280px;
+  
+  
+  }
+  
   .footer{
     display: flex;
     flex-direction: column;
+
    
   }
+  .copyright{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+  }
+  .last-logo{
+    justify-content: center;
+  }
+  
  
 }
 
